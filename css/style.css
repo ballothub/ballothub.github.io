@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Beckman Free";
+    src: url("../fonts/Beckman-Free.otf") format("opentype");
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: Fira Sans, sans-serif;
+    background-color: #7318a4;
+}
+
+.title {
+    font-family: Beckman Free;
+    font-weight: bold;
+    margin-bottom: -0.5rem;
+}
+
+@media (max-width: 767.98px) {
+    .title {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 7rem;
+    }
+}
+
+.row {
+    margin-right: 0%;
+}
+
+.landing {
+    background-color: #7318a4;
+    color: #ffffff;
+}
+
+@media (max-width: 767.98px) {
+    .landing {
+        padding-left: 0.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .landing {
+        padding-left: 1rem;
+    }
+}
+
+.landing-subtext {
+    color: #ffdc65;
+}
+
+.posts {
+    background-color: #bec8da;
+    color: #252d38;
+    padding-left: 1rem;
+}
+
+.post-title {
+    font-family: Rockwell;
+    font-size: 5rem;
+}
+
+@media (min-width: 768px) {
+    .card {
+        min-height: 370px;
+    }
+}
+
+
+.sm-link {
+    color: #ffdc65;
+    font-size: 1.5em;
+    padding-right: 1em;
+}
+
+.sm-link:hover {
+    color: #ffdc65;
+}
+
+.sm-link:active,
+.sm-link:focus {
+    color: #ffdc65 !important;
+}
+
+.navbar {
+    background-color: #252d38;
+}
+
+.navbar-brand {
+    padding-right: 1em;
+}
+
+.as-nav-icon {
+    color: White;
+    font-size: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+@media (max-width: 767.98px) {
+    .caption {
+        margin-top: 0.2em;
+    }
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.sources {
+    list-style-type:none;
+    padding-left:2.5em;
+    text-indent:-1.5em;
+}
